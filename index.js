@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
     })
 
     let musik = [
-    { id: 1, judul: 'Die with a smile', penyanyi: 'Bruno Mars'},
+    { id: 1, judul: 'Die with a smile', penyanyi: 'Bruno Mars.'},
     { id: 2, judul: 'Imagination', penyanyi: 'Shawn Mendes'},
     { id: 3, judul: 'Swim', penyanyi: 'Chase Atlantic'}
 ]
