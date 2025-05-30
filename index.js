@@ -62,7 +62,7 @@ app.put('/edit-musik/:id', (req, res) => {
     }
     if (!judul || !penyanyi) {
         return res.status(400).json({
-            message: 'Judul dan Penyanyi harus diisi.'
+            message: 'Judul dan Penyanyi harus diisi'
         })
     }
     cariMusik.judul = judul
